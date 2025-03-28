@@ -1,0 +1,25 @@
+Proyecto de Gestión de Listín Telefónico
+Este proyecto implementa una aplicación en Python para gestionar un listín telefónico, donde se pueden realizar las siguientes operaciones:
+
+Consultar el teléfono de un cliente: Busca y devuelve el número de teléfono de un cliente por su nombre.
+
+Añadir un nuevo cliente: Permite agregar un cliente con su nombre y número de teléfono al listín.
+
+Eliminar un cliente: Elimina un cliente del listín telefónico por su nombre.
+
+Cargar y ejecutar comandos desde un archivo JSON: Los comandos se cargan desde un archivo comandos.json, lo que permite realizar las operaciones de forma automatizada sin necesidad de interacción directa del usuario.
+
+Funcionalidades destacadas:
+Gestión de archivos: El listín telefónico se guarda en un archivo de texto listin.txt, y las operaciones modifican dicho archivo.
+
+Comandos automatizados: Se carga un conjunto de comandos desde un archivo JSON para realizar acciones como agregar, consultar o eliminar clientes sin intervención manual.
+
+Desarrollo en Python: El proyecto utiliza Python 3.10 para la implementación de las funcionalidades.
+
+Estructura de archivos:
+GestionListin.py: Código principal que implementa la lógica de gestión del listín telefónico.
+
+comandos.json: Archivo JSON donde se especifican los comandos que se ejecutarán en el programa.
+
+Este proyecto es una muestra sencilla de cómo gestionar y manipular datos usando archivos en Python.
+

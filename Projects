@@ -1,0 +1,5 @@
+python-workspace/
+├── README.md
+├── requirements.txt
+├── large_projects/
+├── small_projects/
